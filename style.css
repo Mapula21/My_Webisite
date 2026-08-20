@@ -531,36 +531,30 @@ header.scrolled {
 .profile-card {
     position: relative;
 
-    border: 1px solid rgba(0, 240, 255, .4);
+    width: min(380px, 72vw);   /* responsive: caps at 380px, shrinks on small screens */
+    aspect-ratio: 4 / 5;       /* portrait shape like the reference */
+    margin: 0 auto;
 
-    border-radius: 18px;
-
+    border: 1px solid rgba(0, 240, 255, .15);
+    border-radius: 24px;
     overflow: hidden;
 
-    box-shadow:
-        0 0 35px rgba(0, 240, 255, .07);
-}
+    background: #0b0f16;
 
+    box-shadow:
+        0 35px 100px rgba(0, 0, 0, .55),
+        0 0 80px rgba(0, 240, 255, .07);
+}
 
 .profile-placeholder {
-    height: 330px;
+    position: absolute;
+    inset: 0;              /* shorthand for top/right/bottom/left: 0 */
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    position: relative;
-
-    background:
-        radial-gradient(
-            circle at center,
-            rgba(0, 240, 255, .15),
-            transparent 55%
-        ),
-        #0a1019;
+    background-image: url("headshot.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
-
-
 .profile-initials {
     position: relative;
     z-index: 2;
