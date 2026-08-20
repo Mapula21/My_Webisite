@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mapula Sandra Mokgehle | Cybersecurity & IT Portfolio</title>
+
+    <meta
+        name="description"
+        content="Mapula Sandra Mokgehle — IT student specializing in Cybersecurity, Database Systems and Infrastructure."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MATRIX BACKGROUND -->
+    <canvas id="matrixCanvas"></canvas>
+
+    <!-- HEADER -->
+    <header id="header">
+
+        <div class="container nav-container">
+
+            <a href="#top" class="logo">
+                <span class="cyan">MSM</span>
+                <span class="slash">//</span>
+                <span>SEC_OPS</span>
+            </a>
+
+            <nav id="desktopNav">
+
+                <a href="#manifesto">Manifesto</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#certifications">Certs</a>
+                <a href="#contact">Contact</a>
+
+            </nav>
+
+            <div class="nav-actions">
+
+                <span class="availability">
+                    <span class="status-dot"></span>
+                    Open for 2026 Internship
+                </span>
+
+                <a
+                    href="Mapula_Mokgehle_CV.pdf"
+                    download
+                    class="cv-button"
+                >
+                    ↓ CV
+                </a>
+
+                <button
+                    id="menuButton"
+                    class="menu-button"
+                    aria-label="Open menu"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- MOBILE NAV -->
+        <div id="mobileNav">
+
+            <a href="#manifesto">Manifesto</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#experience">Experience</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main id="top">
+
+        <section class="hero">
+
+            <div class="hero-glow"></div>
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <p class="overline">
+                        [ SYSTEM STATUS: CANDIDATE READY //
+                        HELP DESK &amp; SEC_OPS ]
+                    </p>
+
+                    <h1>
+                        <span>MAPULA</span>
+                        <span>SANDRA</span>
+                        <span class="cyan neon">MOKGEHLE</span>
+                    </h1>
+
+                    <p class="hero-description">
+
+                        IT student focused on
+                        <strong>Cybersecurity, Database Systems
+                        and Infrastructure.</strong>
+
+                        Building practical skills through security labs,
+                        Windows Server, Active Directory, databases,
+                        networking and Python.
+
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#projects" class="primary-button">
+                            Explore Security Labs
+                            <span>↓</span>
+                        </a>
+
+                        <a
+                            href="Mapula_Mokgehle_CV.pdf"
+                            download
+                            class="secondary-button"
+                        >
+                            ↓ Download Resume
+                        </a>
+
+                    </div>
+
+
+                    <!-- STATS -->
+                    <div class="stats">
+
+                        <div class="stat">
+                            <strong>2027</strong>
+                            <span>Expected Graduation</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>IT</strong>
+                            <span>Cybersecurity Focus</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>AD</strong>
+                            <span>Infrastructure Labs</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>SQL</strong>
+                            <span>Database Systems</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO RIGHT -->
+                <div class="hero-right">
+
+                    <div class="profile-card scanner">
+
+                        <div class="profile-placeholder">
+
+                            <div class="profile-initials">
+                                MSM
+                            </div>
+
+                            <div class="profile-grid"></div>
+
+                        </div>
+
+                        <div class="profile-status">
+                            ● LIVE // ID: MSM-2026
+                        </div>
+
+                    </div>
+
+
+                    <!-- TERMINAL -->
+                    <div class="terminal">
+
+                        <div class="terminal-header">
+
+                            <div class="terminal-title">
+                                <span>⌘</span>
+                                recruiter-shell
+                            </div>
+
+                            <div class="terminal-buttons">
+                                <span class="red"></span>
+                                <span class="yellow"></span>
+                                <span class="green"></span>
+                            </div>
+
+                        </div>
+
+
+                        <div
+                            id="terminalOutput"
+                            class="terminal-output"
+                        >
+                            <div>
+                                recruiter@msm:~$ type 'help' to explore
+                            </div>
+                        </div>
+
+
+                        <form id="terminalForm" class="terminal-input">
+
+                            <span class="prompt">$</span>
+
+                            <input
+                                id="terminalInput"
+                                type="text"
+                                autocomplete="off"
+                                placeholder="type 'help'"
+                            >
+
+                            <span class="cursor">▮</span>
+
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MARQUEE -->
+        <div class="marquee">
+
+            <div class="marquee-track">
+
+                <span>CYBERSECURITY ◆</span>
+                <span>ACTIVE DIRECTORY ◆</span>
+                <span>WINDOWS SERVER ◆</span>
+                <span>SQL SERVER ◆</span>
+                <span>PYTHON ◆</span>
+                <span>NETWORKING ◆</span>
+                <span>POWER BI ◆</span>
+                <span>LINUX ◆</span>
+                <span>CYBERSECURITY ◆</span>
+                <span>ACTIVE DIRECTORY ◆</span>
+                <span>WINDOWS SERVER ◆</span>
+                <span>SQL SERVER ◆</span>
+                <span>PYTHON ◆</span>
+                <span>NETWORKING ◆</span>
+
+            </div>
+
+        </div>
+
+
+        <!-- MANIFESTO -->
+        <section id="manifesto" class="section">
+
+            <div class="container">
+
+                <div class="section-heading reveal">
+
+                    <p class="overline">// THE APPROACH</p>
+
+                    <h2>
+                        Three principles that guide how I work.
+                    </h2>
+
+                </div>
+
+
+                <div class="manifesto-list">
+
+                    <article class="manifesto-item reveal">
+
+                        <div class="number">01</div>
+
+                        <h3>
+                            Learn by Building
+                        </h3>
+
+                        <p>
+                            I focus on practical projects and hands-on
+                            labs to turn technical concepts into
+                            real-world skills.
+                        </p>
+
+                    </article>
+
+
+                    <article class="manifesto-item reveal">
+
+                        <div class="number">02</div>
+
+                        <h3>
+                            Secure by Design
+                        </h3>
+
+                        <p>
+                            Security is part of the system from the
+                            beginning. I explore identity management,
+                            access control, hardening, networking and
+                            secure infrastructure.
+                        </p>
+
+                    </article>
+
+
+                    <article class="manifesto-item reveal">
+
+                        <div class="number">03</div>
+
+                        <h3>
+                            Keep Improving
+                        </h3>
+
+                        <p>
+                            Technology changes constantly, so I continue
+                            learning through certifications, projects,
+                            labs and real-world internship experience.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+        <section id="skills" class="section alternate">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="overline">// SYSTEMS MATRIX</p>
+
+                    <h2>
+                        Skills &amp; Tooling
+                    </h2>
+
+                </div>
+
+
+                <div class="skills-layout">
+
+                    <div class="skill-tabs">
+
+                        <button
+                            class="skill-tab active"
+                            data-category="security"
+                        >
+                            Cybersecurity
+                        </button>
+
+                        <button
+                            class="skill-tab"
+                            data-category="infrastructure"
+                        >
+                            Infrastructure
+                        </button>
+
+                        <button
+                            class="skill-tab"
+                            data-category="database"
+                        >
+                            Database &amp; BI
+                        </button>
+
+                        <button
+                            class="skill-tab"
+                            data-category="programming"
+                        >
+                            Programming
+                        </button>
+
+                    </div>
+
+
+                    <div class="skills-panel">
+
+                        <div id="skillsContent"></div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="tools">
+
+                    <span>Kali Linux</span>
+                    <span>Nmap</span>
+                    <span>VirtualBox</span>
+                    <span>Windows Server 2019</span>
+                    <span>Active Directory</span>
+                    <span>SQL Server</span>
+                    <span>SSMS</span>
+                    <span>Power BI</span>
+                    <span>SSRS</span>
+                    <span>Python</span>
+                    <span>C#</span>
+                    <span>GitHub</span>
+                    <span>Arduino</span>
+                    <span>ESP32</span>
+                    <span>IoT</span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="overline">// FEATURED LABS</p>
+
+                    <h2>
+                        Security &amp; database projects.
+                    </h2>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+                    <article
+                        class="project-card reveal"
+                        data-project="active-directory"
+                    >
+
+                        <div class="project-image cyber-image">
+
+                            <span class="project-tag">
+                                WINDOWS SERVER
+                            </span>
+
+                            <div class="project-icon">
+                                AD
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Enterprise AD Security &amp; IAM Lab
+                                <span>↗</span>
+                            </h3>
+
+                            <p>
+                                Windows Server 2019 Active Directory
+                                environment with organizational units,
+                                users, RBAC and security policies.
+                            </p>
+
+                            <div class="stack">
+
+                                <span>Windows Server 2019</span>
+                                <span>AD DS</span>
+                                <span>RBAC</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+                    <article
+                        class="project-card reveal"
+                        data-project="network-security"
+                    >
+
+                        <div class="project-image network-image">
+
+                            <span class="project-tag">
+                                NETWORK SECURITY
+                            </span>
+
+                            <div class="project-icon">
+                                NMAP
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Network Security Lab
+                                <span>↗</span>
+                            </h3>
+
+                            <p>
+                                Practical cybersecurity laboratory
+                                covering network scanning, firewalls,
+                                VPN concepts, IDS and secure wireless.
+                            </p>
+
+                            <div class="stack">
+
+                                <span>Kali Linux</span>
+                                <span>Nmap</span>
+                                <span>VirtualBox</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+                    <article
+                        class="project-card reveal"
+                        data-project="database-bi"
+                    >
+
+                        <div class="project-image database-image">
+
+                            <span class="project-tag">
+                                DATABASE &amp; BI
+                            </span>
+
+                            <div class="project-icon">
+                                SQL
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Database &amp; BI Reporting
+                                <span>↗</span>
+                            </h3>
+
+                            <p>
+                                Database design, SQL reporting,
+                                Power BI dashboards, SSRS and
+                                paginated reporting.
+                            </p>
+
+                            <div class="stack">
+
+                                <span>SQL Server</span>
+                                <span>Power BI</span>
+                                <span>SSRS</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 4 -->
+                    <article
+                        class="project-card reveal"
+                        data-project="iot"
+                    >
+
+                        <div class="project-image iot-image">
+
+                            <span class="project-tag">
+                                IoT SECURITY
+                            </span>
+
+                            <div class="project-icon">
+                                IoT
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                IoT Cybersecurity Labs
+                                <span>↗</span>
+                            </h3>
+
+                            <p>
+                                Exploring MQTT, TLS certificates,
+                                device identity, payload integrity
+                                and replay protection.
+                            </p>
+
+                            <div class="stack">
+
+                                <span>Python</span>
+                                <span>MQTT</span>
+                                <span>ESP32</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 5 -->
+                    <article
+                        class="project-card reveal"
+                        data-project="malware"
+                    >
+
+                        <div class="project-image malware-image">
+
+                            <span class="project-tag">
+                                SECURITY LAB
+                            </span>
+
+                            <div class="project-icon">
+                                ⚠
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Cybersecurity Attack Labs
+                                <span>↗</span>
+                            </h3>
+
+                            <p>
+                                Controlled security labs covering
+                                phishing scenarios, privilege
+                                escalation, buffer overflow concepts
+                                and simulated ransomware behaviour.
+                            </p>
+
+                            <div class="stack">
+
+                                <span>Kali Linux</span>
+                                <span>Python</span>
+                                <span>Security</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- PROJECT 6 -->
+                    <article
+                        class="project-card reveal"
+                        data-project="python"
+                    >
+
+                        <div class="project-image python-image">
+
+                            <span class="project-tag">
+                                PROGRAMMING
+                            </span>
+
+                            <div class="project-icon">
+                                PY
+                            </div>
+
+                        </div>
+
+                        <div class="project-content">
+
+                            <h3>
+                                Python for Cybersecurity
+                                <span>↗</span>
+                            </h3>
+
+                            <p>
+                                Python practice focused on automation,
+                                data processing, logic, networking
+                                concepts and cybersecurity tasks.
+                            </p>
+
+                            <div class="stack">
+
+                                <span>Python</span>
+                                <span>Automation</span>
+                                <span>Security</span>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section alternate">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="overline">// TRAJECTORY</p>
+
+                    <h2>
+                        Experience &amp; Education
+                    </h2>
+
+                </div>
+
+
+                <div class="timeline">
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot active"></div>
+
+                        <span class="timeline-period">
+                            2026 — PRESENT
+                        </span>
+
+                        <h3>
+                            IT Internship / WIL
+                        </h3>
+
+                        <h4>
+                            Infrastructure &amp; Cybersecurity
+                        </h4>
+
+                        <p>
+                            Building practical workplace experience
+                            through IT infrastructure, cybersecurity,
+                            database and technical support activities.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <span class="timeline-period">
+                            2023 — 2027
+                        </span>
+
+                        <h3>
+                            Diploma in Information Technology
+                        </h3>
+
+                        <h4>
+                            Database Systems &amp; Cybersecurity
+                        </h4>
+
+                        <p>
+                            Developing skills in database systems,
+                            cybersecurity, programming, networking,
+                            reporting and infrastructure.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <span class="timeline-period">
+                            2021
+                        </span>
+
+                        <h3>
+                            National Senior Certificate
+                        </h3>
+
+                        <h4>
+                            Nare Secondary School
+                        </h4>
+
+                        <p>
+                            Completed Grade 12 / Matric.
+                        </p>
+
+                    </div>
+
+
+                    <div class="timeline-item reveal">
+
+                        <div class="timeline-dot"></div>
+
+                        <span class="timeline-period">
+                            JAN 2022 — AUG 2022
+                        </span>
+
+                        <h3>
+                            General Assistant
+                        </h3>
+
+                        <h4>
+                            Malokaneng Primary School
+                        </h4>
+
+                        <p>
+                            Gained early workplace experience,
+                            responsibility, communication and
+                            administrative skills.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <p class="overline">// CREDENTIALS</p>
+
+                    <h2>
+                        Certifications
+                    </h2>
+
+                </div>
+
+
+                <div class="cert-grid">
+
+                    <div class="cert-card reveal">
+
+                        <div class="cert-icon">
+                            ✓
+                        </div>
+
+                        <h3>
+                            Cybersecurity Certificate
+                        </h3>
+
+                        <p>
+                            Cybersecurity training and practical
+                            security knowledge.
+                        </p>
+
+                        <span class="completed">
+                            ● COMPLETED
+                        </span>
+
+                    </div>
+
+
+                    <div class="cert-card reveal">
+
+                        <div class="cert-icon">
+                            ✓
+                        </div>
+
+                        <h3>
+                            Data Analytics Certificate
+                        </h3>
+
+                        <p>
+                            Data analysis, reporting and
+                            business intelligence skills.
+                        </p>
+
+                        <span class="completed">
+                            ● COMPLETED
+                        </span>
+
+                    </div>
+
+
+                    <div class="cert-card reveal">
+
+                        <div class="cert-icon progress-icon">
+                            ◷
+                        </div>
+
+                        <h3>
+                            CompTIA A+
+                        </h3>
+
+                        <p>
+                            Planned certification focused on
+                            foundational IT support and hardware,
+                            software and troubleshooting.
+                        </p>
+
+                        <span class="in-progress">
+                            ● PLANNED
+                        </span>
+
+                    </div>
+
+
+                    <div class="cert-card reveal">
+
+                        <div class="cert-icon">
+                            ✓
+                        </div>
+
+                        <h3>
+                            Practical Security Labs
+                        </h3>
+
+                        <p>
+                            Hands-on experience with Windows Server,
+                            Active Directory, Kali Linux and networking.
+                        </p>
+
+                        <span class="completed">
+                            ● PRACTICAL
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+        <section id="contact" class="section alternate">
+
+            <div class="container contact-grid">
+
+                <div class="contact-intro">
+
+                    <p class="overline">// ESTABLISH CONNECTION</p>
+
+                    <h2>
+                        Let's talk about your open role.
+                    </h2>
+
+                    <p>
+                        Hiring for an IT Support, Help Desk,
+                        Infrastructure or Cybersecurity internship?
+                        Send me a message and I'll get back to you.
+                    </p>
+
+
+                    <div class="contact-details">
+
+                        <button
+                            class="contact-item"
+                            data-copy="sandramapula7@gmail.com"
+                        >
+                            <span>✉</span>
+                            <strong>
+                                sandramapula7@gmail.com
+                            </strong>
+                            <small>Copy</small>
+                        </button>
+
+
+                        <button
+                            class="contact-item"
+                            data-copy="+27 82 625 4534"
+                        >
+                            <span>☎</span>
+                            <strong>
+                                +27 82 625 4534
+                            </strong>
+                            <small>Copy</small>
+                        </button>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACT FORM -->
+                <form
+                    id="contactForm"
+                    class="contact-form"
+                >
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label>Name *</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                required
+                                placeholder="Recruiter name"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>Email *</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                required
+                                placeholder="you@company.com"
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label>Subject *</label>
+
+                            <input
+                                type="text"
+                                id="subject"
+                                required
+                                placeholder="Internship opportunity"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label>Role</label>
+
+                            <select id="role">
+
+                                <option>
+                                    IT Support / Help Desk
+                                </option>
+
+                                <option>
+                                    Cybersecurity Internship
+                                </option>
+
+                                <option>
+                                    Infrastructure Internship
+                                </option>
+
+                                <option>
+                                    Database Internship
+                                </option>
+
+                                <option>
+                                    IT WIL Opportunity
+                                </option>
+
+                            </select>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label>Message *</label>
+
+                        <textarea
+                            id="message"
+                            rows="6"
+                            required
+                            placeholder="Tell me about the role and team..."
+                        ></textarea>
+
+                    </div>
+
+
+                    <button
+                        type="submit"
+                        class="primary-button"
+                    >
+                        Send Message →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- PROJECT MODAL -->
+    <div id="projectModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="modalClose" class="modal-close">
+                ×
+            </button>
+
+            <div id="modalBody"></div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TOAST -->
+    <div id="toast"></div>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="container">
+
+            <div class="footer-top">
+
+                <div>
+
+                    <p class="overline">
+                        LET'S BUILD SECURE SYSTEMS
+                    </p>
+
+                    <h3>
+                        Available for Help Desk,
+                        Infrastructure &amp; Cybersecurity
+                        internships across South Africa.
+                    </h3>
+
+                </div>
+
+
+                <div class="footer-links">
+
+                    <a href="mailto:sandramapula7@gmail.com">
+                        ✉ sandramapula7@gmail.com
+                    </a>
+
+                    <a
+                        href="https://github.com/Mapula21"
+                        target="_blank"
+                    >
+                        ◉ github.com/Mapula21
+                    </a>
+
+                    <a
+                        href="#"
+                        target="_blank"
+                    >
+                        in Mapula Mokgehle
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-name">
+                MOKGEHLE
+            </div>
+
+
+            <div class="footer-bottom">
+
+                <span>
+                    © <span id="year"></span>
+                    Mapula Sandra Mokgehle
+                </span>
+
+                <span>
+                    SAST <span id="clock"></span>
+                    <b> ● SYSTEM ONLINE</b>
+                </span>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
